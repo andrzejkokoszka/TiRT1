@@ -1,0 +1,69 @@
+{"parametersHost": "localhost:11110",
+"inputs": {
+  "masterService_videoInput": {
+    "ip": "127.0.0.1",
+    "port": 11000
+  },
+  "masterService_settingsInput": {
+    "ip": "127.0.0.1",
+    "port": 11002
+  },
+  "preprocessingService_videoInput": {
+    "ip": "127.0.0.1",
+    "port": 13001
+  },
+  "preprocessingService_settingsInput": {
+    "ip": "127.0.0.1",
+    "port": 13003
+  },
+  "resizeService_videoInput": {
+    "ip": "127.0.0.1",
+    "port": 10001
+  },
+  "resizeService_settingsInput": {
+    "ip": "127.0.0.1",
+    "port": 10003
+  },
+  "filterGrayService_videoInput": {
+    "ip": "127.0.0.1",
+    "port": 12001
+  },
+  "filterGrayService_settingsInput": {
+    "ip": "127.0.0.1",
+    "port": 12003
+  }
+},
+"outputs": {
+  "masterService_videoOutput": {
+      "ip": "127.0.0.1",
+      "port": 11001
+  },
+  "preprocessingService_videoOutput": {
+    "ip": "127.0.0.1",
+    "port": 13000
+  },
+  "preprocessingService_settingsOutput": {
+    "ip": "127.0.0.1",
+    "port": 13002
+  },
+  "resizeService_videoOutput": {
+    "ip": "127.0.0.1",
+    "port": 10000
+  },
+  "resizeService_settingsOutput": {
+    "ip": "127.0.0.1",
+    "port": 10002
+  },
+  "filterGrayService_videoOutput": {
+    "ip": "127.0.0.1",
+    "port": 12000
+  },
+  "filterGrayService_settingsOutput": {
+    "ip": "127.0.0.1",
+    "port": 12002
+  }
+},
+"parameters": {
+
+  }
+}
