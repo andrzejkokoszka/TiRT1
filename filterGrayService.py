@@ -44,5 +44,5 @@ class Filter1Service(Service): #klasa usługi musi dziedziczyć po ComssServiceD
             video_output.send(frame.dumps()) #przesłanie ramki za pomocą interfejsu wyjściowego
 
 if __name__=="__main__":
-    sc = ServiceController(Filter1Service, "filterGrayService.json") #utworzenie obiektu kontrolera usługi
+    sc = ServiceController(Filter1Service, "config/filterGrayService.json") #utworzenie obiektu kontrolera usługi
     sc.start() #uruchomienie usługi
